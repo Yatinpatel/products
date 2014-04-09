@@ -2,6 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+h1 {
+    
+    font-size: x-large;
+    font-weight:bold;
+    color: white;
+}
 .products {
 	table {
 		border-collapse: collapse;
@@ -9,7 +15,7 @@
 	      }
 
 table tr td {
-	padding: 10px;
+	padding: 5px;
 	vertical-align: top;
 	}
 .list_image {
@@ -18,22 +24,29 @@ table tr td {
 	}
 
 .list_description {
-	width: 70%;
+	width: 90%;
 
 dl {
-margin: 2px;
+margin: 0px;
 }
 
 dt {
-color: #244;
+color: green;
 font-weight: bold;
 font-size: larger;
 }
 
 dd {
-margin: 4px;
+margin: 0px;
 }
 }
+
+.list_action {
+	font-size: x-small;
+	padding-left: 1em;
+	text-align: right;
+}
+	
 
 .list_line_even {
 background: #e0f8f8;
