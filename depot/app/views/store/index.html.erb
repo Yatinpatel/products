@@ -3,14 +3,29 @@
 <% end %>
 
 <h1> MY STORE CATALOG</h1>
-
+<table cellpadding="0" cellspacing="0" border="1" colspan="3">
+<tr>
 <% @products.each do |product| %>
+
+<% @i = @i + 1 %> 
+
+<% if @i % 4 == 0 %>
+</tr>
+<tr>
+<% end %>
+
+<td>
+<br />
 <div class="entry">
-<%= image_tag(product.image_url) %>
+<%= image_tag(product.image_url) %></th>
 <h3><%=product.title %></h3>
-<h2><%= sanitize(product.description) %></h2>
+<h2><%= truncate(strip_tags(product.description),length: 30)%></h2>
 <div class="price_line">
 <span class="price"><%= number_to_currency(product.price) %></span>
 </div>
 </div>
+</td>
 <% end %>
+</tr>
+</table>
+

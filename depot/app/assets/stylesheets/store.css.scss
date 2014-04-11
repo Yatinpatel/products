@@ -1,8 +1,25 @@
 .store{
-   
+		
+table,th,td
+{
+
+border:0px ;
+border-collapse:collapse;
+}
+th,td
+{
+padding:2px;
+}
+th
+{
+text-align: center;
+}   
+
+
+
  	h1 {
 
-    		margin: 0;
+    		margin: 1em;
 
     		padding-bottom: 0.5em;
 
@@ -10,7 +27,7 @@
     
     		color: red;
 
-    		border-bottom: 3px dotted #77d;
+    		border-bottom: 3px solid #77d;
 	
   	}
 
@@ -18,18 +35,19 @@
 
     			overflow: auto;
 			margin-top: 1em;
-    			border-bottom: 1px dotted #77d;
     			min-height: 120px;
 		
 			img {
 
-      				width: 80px;
+      				width: 150px;
 
       				margin-right: 5px;
+				margin-left: 30px;
 
       				margin-bottom: 5px;
 
-      				position: absolute;
+      				position:center;
+;
 
   			}
 	
@@ -37,27 +55,30 @@
 		
 		font-size: 120%;
 		font-family: san-serif;
-		margin-left: 130px;
-		margin-top: 0;
+		margin-left: 20px;
+		margin-top: 0.5px;
 		margin-bottom: 5px;
+		text-align: center;
 		color: #227;
 	}
 h2 {
 		
 		font-size: 80%;
 		font-family: san-serif;
-		margin-left: 130px;
+		margin-left: 20px;
 		margin-top: 0;
 		margin-bottom: 5px;
+		text-align: center;
 		color: black;
 	}
  
 
     p, div.price_line {
 
-		margin-left: 130px;
+		margin-left: 20px;
 		margin-top: 0.5em;
 		margin-bottom: 0.8em;
+		text-align: center;
 	}
 .price {
 
@@ -67,7 +88,7 @@ h2 {
       font-weight: bold;
 
       margin-right: 3em;
-
+	
     }
 }
 }

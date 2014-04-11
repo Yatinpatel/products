@@ -38,10 +38,10 @@
 #columns{
 
 		background: #141;
+}
 	
 	#main {
 		
-		float: left;
 		padding: 1em;
 		background: white;
 		margin-left: 17em;
@@ -70,5 +70,4 @@
 		}
 	}
 	
-}
 }
