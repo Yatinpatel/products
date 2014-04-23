@@ -18,7 +18,7 @@
 	border-bottom: 2px solid;
 	font: small-caps 40px/40px "Times new Roman",serif;
 	color: #282;
-	text-align: center;
+	text-align: left;
  img{
 	
 	float: left;	
