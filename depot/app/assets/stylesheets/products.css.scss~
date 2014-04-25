@@ -6,7 +6,7 @@ h1 {
     
     font-size: x-large;
     font-weight:bold;
-    color: white;
+    color: black;
 }
 .products {
 	table {
@@ -17,6 +17,7 @@ h1 {
 table tr td {
 	padding: 5px;
 	vertical-align: top;
+	color: black;
 	}
 .list_image {
 	width: 70px;
@@ -31,7 +32,7 @@ margin: 0px;
 }
 
 dt {
-color: white;
+color: green;
 font-weight: bold;
 font-size: larger;
 }

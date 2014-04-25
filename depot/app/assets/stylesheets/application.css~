@@ -53,6 +53,27 @@
 		padding: 1em 2em;
 		width: 13em;
 		background: #141;
+		
+		form, div {
+				display: inline;
+			  }
+
+		input {
+			font-size: small;
+		      }
+
+		#cart {
+			background: white;
+			font-size: smaller;
+			color: #bfb;
+			
+		table {
+			
+			border-top: 1px dotted black;
+			border-bottom: 1px dotted black;
+                        margin-bottom: 10px;
+			}
+		}
 
 		ul {
 			padding: 0;
@@ -60,11 +81,12 @@
 		li {
 		
 			list-style: none;
+			color: black;
 			
 		a {
 		
 			font-size: small;
-			color: #bfb;
+			color: black;
 		
 			}
 		}
